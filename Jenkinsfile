@@ -14,7 +14,6 @@ pipeline {
             agent {
                 docker {
                     image 'node:18-alpine' // Ensure the image name is correct and consistent with Docker Hub
-                    label 'node-18-alpine' // Optional: add a label if using a specific agent
                 }
             }
             steps {
