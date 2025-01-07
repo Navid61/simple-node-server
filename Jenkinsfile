@@ -5,7 +5,7 @@ pipeline {
         // Checkout stage to pull code from GitHub
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:Navid61/simple-node-server.git' 
+                git branch: 'main', url: 'https://github.com/Navid61/simple-node-server.git' 
             }
         }
 
