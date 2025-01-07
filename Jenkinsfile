@@ -8,6 +8,8 @@ pipeline {
             }
         }
 
+        /*
+
         stage('Install Dependencies (npm ci)') {
             agent {
                 docker {
@@ -18,6 +20,8 @@ pipeline {
                 sh 'npm ci'
             }
         }
+
+        */
 
         stage('Test Installation') {
             steps {
